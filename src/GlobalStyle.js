@@ -12,7 +12,9 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  padding: 16px;
+  background: ${({ theme }) => theme.color.whisper};
+  color: ${({ theme }) => theme.color.black}
 }
 `;
